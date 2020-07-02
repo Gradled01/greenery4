@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.messageActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="消息"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="60dp"
+            app:civ_border_color="#fff"
+            app:civ_border_width="2dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/head"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="计小软"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下午 19:13"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:textSize="14dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="大连东软信息学院拟建校20周年主题"
+                android:textSize="16dp"
+                android:layout_marginLeft="3dp"
+                android:layout_gravity="center"
+                android:layout_below="@+id/user_name"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            app:civ_border_color="#fff"
+            app:civ_border_width="2dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/head"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/user_name5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Andriod课代表"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下午 19:13"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:textSize="14dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="作业交给我就行"
+                android:textSize="16dp"
+                android:layout_marginLeft="3dp"
+                android:layout_gravity="center"
+                android:layout_below="@+id/user_name5"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            app:civ_border_color="#fff"
+            app:civ_border_width="2dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/head"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/user_name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android交流群"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下午 19:13"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:textSize="14dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="底部导航栏的按钮颜色和整体"
+                android:textSize="16dp"
+                android:layout_marginLeft="3dp"
+                android:layout_gravity="center"
+                android:layout_below="@+id/user_name4"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            app:civ_border_color="#fff"
+            app:civ_border_width="2dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/head"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/user_name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="asdf"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下午 19:13"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:textSize="14dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="欢迎光临"
+                android:textSize="16dp"
+                android:layout_marginLeft="3dp"
+                android:layout_gravity="center"
+                android:layout_below="@+id/user_name3"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_avatar1"
+            android:layout_width="60dp"
+            app:civ_border_color="#fff"
+            app:civ_border_width="2dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/head"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:id="@+id/user_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="刘心达"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下午 19:13"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:textSize="14dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="昨天web作业第二题的代码有问题"
+                android:textSize="16dp"
+                android:layout_marginLeft="3dp"
+                android:layout_gravity="center"
+                android:layout_below="@+id/user_name2"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

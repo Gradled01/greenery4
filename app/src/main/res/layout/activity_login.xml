@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:src="@mipmap/ic_close" />
+
+    <TextView
+        android:id="@+id/tv_login_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_close"
+        android:layout_marginLeft="20dp"
+        android:text="登录"
+        android:textColor="#000"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:weightSum="6"
+        android:id="@+id/ll_input"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:paddingRight="15dp"
+        android:layout_below="@+id/tv_login_title"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_tel"
+            android:hint="输入账号" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/view_divide"
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/ll_input"
+        android:layout_height="0.6dp"
+        android:background="#e6e6e6"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/view_divide"
+        android:layout_height="50dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_pass"
+            android:hint="输入密码" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <CheckBox
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/login_cb"
+            android:button="@null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我已阅读并同意"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="绿荫用户协议"
+            android:textColor="#1f76a4"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="和"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="隐私政策"
+            android:textColor="#1f76a4"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:text="登录"
+        android:layout_marginBottom="20dp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp" />
+</RelativeLayout>

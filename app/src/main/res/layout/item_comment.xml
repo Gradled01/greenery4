@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/dp_10"
+    android:padding="3sp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="40dp"
+            app:civ_border_color="#fff"
+            app:civ_border_width="2dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/head"
+        />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="袁建中"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_marginTop="2dp"
+                android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3分钟前"
+                android:textSize="10dp"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/t1"
+                android:layout_gravity="center"
+                android:layout_below="@+id/ll"
+                android:layout_marginTop="2dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="评论评论评论评论评论评论评论评论评论评论"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:id="@+id/content"
+                android:layout_marginLeft="50dp"
+                android:layout_alignBottom="@+id/t1"
+
+                />
+        </RelativeLayout>
+
+</LinearLayout>
