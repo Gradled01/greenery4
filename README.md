@@ -1,0 +1,2 @@
+# greenery4
+一个图片社交app，使用了自己笔记本搭建的tomcat服务器，用模拟器运行访问mysql数据库
